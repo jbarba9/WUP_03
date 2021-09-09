@@ -45,7 +45,10 @@ favstats(alcohol~Seat,data=davisdata)
   According to the chart, the back row drinks the most alcohol than the middle and front rows. The back row drinks a mean of 9.625000. The middle row drinks a mean of 3.283133. The front row drinks a mean of 1.803030.  
     
 ## Inferential Tests
-
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
 ## Conclusions
 
 
