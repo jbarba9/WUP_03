@@ -58,5 +58,6 @@ plot(TukeyHSD(model1))
 According to this chart, the middle and front do not have a difference. However, the front-back and the back-middle are different.  
   
 ## Conclusions
-
+  
+  In conclusion, we found out that there were three different categories instead of two. We had to use Anova to determine the amount of drinks per week by the rows the people sat in.
 
