@@ -42,7 +42,7 @@ Visually, the plot show a substantial amount of a difference between the back ro
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
 ```
-  According to the chart, the back row drinks the most alcohol than the middle and front rows. The back row drinks a mean of 9.625000. The middle row drinks a mean of 3.283133. The front row drinks a mean of 1.803030.  
+  According to the chart, the back row drinks 9.6 more alcoholic drinks than the middle row, drinking only about 3.2 alcoholic drinks per week. The front row drinks 1.8 per week. It is reasonable to assume that the amout being drank per week is not the same between these 3 rows.
     
 ## Inferential Tests
 ```{r}
